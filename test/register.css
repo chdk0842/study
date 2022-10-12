@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+#signup {
+    background-color:#fff;
+    border:1px solid black;
+    width: 442px;
+    height:527px;
+    border-radius: 10px;
+}
+
+#signup fieldset {
+   width: 400px;
+   height: 200px;
+   border: 1px solid black;
+}
+
+#signup fieldset:last-of-type {
+    border: none;
+}
+
+#signup legend {
+
+}
+
+#signup ul li {
+ list-style: none;
+}
+
+#signup label {
+
+}
+
+#signup button {
+width: 86px;
+height: 37px;
+border-radius: 30px;
+border: 1px solid black;
+}
+
+#signup input[type=text], #signup input[type=password],#signup input[type=tel], #signup input[type=emall] {
+border: 1px solid red;
+}
+
+#signup input[required] {
+
+}
+
+#signup input[readonly] {
+    
+}
+
+#signup button:hover {
+    background-color: black;
+    color: white;
+}
