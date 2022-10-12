@@ -8,36 +8,56 @@
 body {
     background-color: #ccc;
     padding: 20px;
+    position: relative;
 }
 
 #signup {
     background-color:#fff;
-    border:1px solid black;
+    border:1px solid #888;
     width: 442px;
     height:527px;
     border-radius: 10px;
+    margin: 0 auto;
+   
 }
 
 #signup fieldset {
    width: 400px;
    height: 200px;
    border: 1px solid black;
+   margin: 20px auto;
 }
+
 
 #signup fieldset:last-of-type {
     border: none;
+    height: 100px;
+    
+    
 }
 
 #signup legend {
-
+ font-weight: bold;
 }
+
+
 
 #signup ul li {
  list-style: none;
+ margin: 7px;
+ float: left;
+ height: 30px;
+ background-color: aqua;
+ line-height: 30px;
 }
+
+
 
 #signup label {
 
+display: block;
+width: 150px;
+float: left;
 }
 
 #signup button {
@@ -45,10 +65,15 @@ width: 86px;
 height: 37px;
 border-radius: 30px;
 border: 1px solid black;
+
 }
 
 #signup input[type=text], #signup input[type=password],#signup input[type=tel], #signup input[type=emall] {
-border: 1px solid red;
+border: 1px solid black;
+
+width: 150px;
+height: 20px;
+
 }
 
 #signup input[required] {
@@ -58,6 +83,10 @@ border: 1px solid red;
 #signup input[readonly] {
     
 }
+
+
+#signup button{ margin: 0 auto;
+display: block; top: 100px;}
 
 #signup button:hover {
     background-color: black;
