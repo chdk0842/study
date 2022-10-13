@@ -14,79 +14,78 @@ body {
 #signup {
     background-color:#fff;
     border:1px solid #888;
-    width: 442px;
-    height:527px;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 20px;
     margin: 0 auto;
-   
+    width: 400px;
 }
 
 #signup fieldset {
-   width: 400px;
-   height: 200px;
-   border: 1px solid black;
-   margin: 20px auto;
+   border: 1px solid #ccc;
+   margin-bottom: 30px;
 }
 
 
 #signup fieldset:last-of-type {
     border: none;
-    height: 100px;
-    
-    
 }
 
 #signup legend {
  font-weight: bold;
+ font-size: 16px;
+ padding-left: 5px;
+ padding-bottom: 10px;
 }
 
 
 
 #signup ul li {
  list-style: none;
- margin: 7px;
- float: left;
- height: 30px;
- background-color: aqua;
  line-height: 30px;
+ padding: 5px 10px;
+ margin-bottom: 2px;
 }
 
 
 
 #signup label {
 
-display: block;
-width: 150px;
+width: 110px;
 float: left;
+font-size: 13px;
 }
 
 #signup button {
-width: 86px;
-height: 37px;
-border-radius: 30px;
-border: 1px solid black;
+font-size: 16px;
+letter-spacing: 1px;
+border-radius: 20px;
+border: 1px solid #222;
+padding: 7px 25px;
+display: block;
+margin: 0 auto;
+}
+
+#signup input[type=text], #signup input[type=password],#signup input[type=tel], #signup input[type=email] {
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 13px;
+padding: 5px;
+width: 200px;
 
 }
 
-#signup input[type=text], #signup input[type=password],#signup input[type=tel], #signup input[type=emall] {
-border: 1px solid black;
-
-width: 150px;
-height: 20px;
-
-}
+/* 라디오 타입이 아닌 선택자 input:not */
+#signup input:not([type=radio]){}
 
 #signup input[required] {
+    border:1px solid red;
 
 }
 
 #signup input[readonly] {
-    
+    border: none;
 }
 
-
-#signup button{ margin: 0 auto;
-display: block; top: 100px;}
 
 #signup button:hover {
     background-color: black;
