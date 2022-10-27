@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="loc()">이동!</button>
+    <button onclick="back()">뒤로!</button>
+
+    <script>
+      function loc () {
+         location.href = "./test.html"
+      }
+      function back(){
+          history.go(-1) //뒤로가기
+          //history.back() //뒤로가기
+      }
+
+    </script>
+</body>
+</html>
